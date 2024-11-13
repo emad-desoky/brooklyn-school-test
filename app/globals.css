@@ -1,0 +1,13 @@
+/* Global styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply global padding to the content wrapper */
+.main-wrapper {
+  padding-left: 8rem;  /* 128px */
+  padding-right: 8rem; /* 128px */
+  margin-top: 2rem; /* Optional: to create some space between navbar and content */
+
+}
+
