@@ -5,33 +5,32 @@ import Image from "next/image";
 const PromotedStories = () => {
   const cards = [
     {
-      image:
-        "https://images.pexels.com/photos/3759082/pexels-photo-3759082.jpeg",
+      image: "sixthteen.jpeg",
       title: "Top Global MBA Programs 2025",
       description:
         "Explore the best MBA programs around the world, ranked in the QS Global MBA Rankings for 2025.",
     },
     {
-      image:
-        "https://images.pexels.com/photos/3184307/pexels-photo-3184307.jpeg",
+      image: "seventeen.jpeg",
+
       title: "QS MBA Ranking Methodology",
       description: "Understand the methodology behind the QS ",
     },
     {
-      image:
-        "https://images.pexels.com/photos/3270763/pexels-photo-3270763.jpeg",
+      image: "eighteen.jpeg",
+
       title: "Top MBAs for Finance Careers",
       description: "Check out the best MBA programs for a career",
     },
     {
-      image:
-        "https://images.pexels.com/photos/1181397/pexels-photo-1181397.jpeg",
+      image: "nineteen.jpg",
+
       title: "Operations Management MBA Programs",
       description: "Discover the best MBA programs that.",
     },
     {
-      image:
-        "https://images.pexels.com/photos/3183189/pexels-photo-3183189.jpeg",
+      image: "twenty.jpeg",
+
       title: "Top Entrepreneurship MBA Programs",
       description:
         "Explore the top MBA programs for aspiring entrepreneurs, ranked globally for 2025.",

@@ -7,15 +7,13 @@ const Ranking = () => {
       title: "MBA Rankings",
       cards: [
         {
-          image:
-            "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGJ1c2luZXNzJTIwc2Nob29sfGVufDB8fHx8MTY5Mzg0MTA5MA&ixlib=rb-4.0.3&q=80&w=1080", // Verified working business school image
+          image: "/one.jpg",
           title: "Top Global MBA Programs 2025",
           description:
             "Discover the top MBA programmes around the world according to the QS Global MBA Rankings.",
         },
         {
-          image:
-            "https://images.unsplash.com/photo-1529243856184-fd5465488984?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDV8fHNhbXBsZXxlbnwwfHx8fDE2OTM4NDEwOTI&ixlib=rb-4.0.3&q=80&w=1080", // Verified working image for methodology
+          image: "two.jpg",
           title: "QS MBA Ranking Methodology",
           description:
             "Learn the methodology behind the QS Global MBA Rankings, assessing the top full-time MBA programs worldwide.",
@@ -27,22 +25,21 @@ const Ranking = () => {
       title: "Career Specialisation Rankings",
       cards: [
         {
-          image:
-            "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg", // Working image for finance career
+          image: "/three.jpeg",
           title: "Top MBAs for Finance Careers",
           description:
             "QS MBA by Career Specialisation Rankings 2025 highlight the top 10 schools excelling in finance.",
         },
         {
-          image:
-            "https://images.pexels.com/photos/3184433/pexels-photo-3184433.jpeg", // Working image for operations management
+          image: "/four.jpeg",
+
           title: "Top MBAs for Operations Management",
           description:
             "Operations management focuses on planning, organizing, and supervising in production.",
         },
         {
-          image:
-            "https://images.pexels.com/photos/1582493/pexels-photo-1582493.jpeg", // Working image for entrepreneurship MBA
+          image: "/five.jpeg",
+
           title: "Top 10 Entrepreneurship MBAs",
           description:
             "Explore the best MBA programs for aspiring entrepreneurs according to the QS MBA Rankings 2025.",
@@ -54,32 +51,31 @@ const Ranking = () => {
       title: "EMBA Rankings",
       cards: [
         {
-          image:
-            "https://www.topmba.com/sites/default/files/styles/articles_inline/public/articles/lead-images/huntsman_hall_wharton_0.jpg.webp",
+          image: "/six.jpg.webp",
+
           title: "Top Global EMBA Programs 2025",
           description: "See the top executive MBA programs worldwide for 2025.",
         },
         {
-          image:
-            "https://www.topmba.com/sites/default/files/styles/articles_inline/public/articles/lead-images/huntsman_hall_wharton_0.jpg.webp",
+          image: "/seven.png",
+
           title: "EMBAs in Healthcare",
           description: "EMBAs in Healthcare",
         },
         {
-          image:
-            "https://www.hec.edu/sites/default/files/styles/newsroom_media/public/2024-04/j-emba-46-header-_sept_2023_intake.png?itok=f6F25azE",
-          title: "HEC Paris EMBA",
+          image: "/eight.jpg.webp",
+
           description: "",
         },
         {
-          image:
-            "https://www.topmba.com/sites/default/files/styles/articles_inline/public/articles/lead-images/huntsman_hall_wharton_0.jpg.webp",
+          image: "/nine.jpg.webp",
+
           title: "Top 10 EMBA Programs",
           description: "",
         },
         {
-          image:
-            "https://www.topmba.com/sites/default/files/styles/articles_inline/public/embed-carousel/nus450_1.jpg.webp",
+          image: "/ten.jpg.webp",
+
           title: "US Executive MBA",
           description: "",
         },
@@ -89,30 +85,30 @@ const Ranking = () => {
       title: "Online MBA Rankings",
       cards: [
         {
-          image:
-            "https://www.topmba.com/sites/default/files/styles/articles_inline/public/articles/lead-images/istock-695147934_1.jpg.webp",
+          image: "/eleven.jpg.webp",
+
           title: "Top UK Online MBA Programs",
           description:
             "Comparison of the top three online MBA programs in the UK.",
         },
         {
-          image:
-            "https://www.topmba.com/sites/default/files/styles/articles_inline/public/embed-carousel/iStock-1185326263.jpg.webp",
+          image: "/twelve.jpg.webp",
+
           title: "Best European Online",
         },
         {
-          image:
-            "https://www.topmba.com/sites/default/files/styles/articles_inline/public/articles/lead-images/rotman_school_edit.jpg.webp",
+          image: "/thirteen.jpg.webp",
+
           title: "Innovative Online ",
         },
         {
-          image:
-            "https://www.topmba.com/sites/default/files/styles/articles_inline/public/articles/lead-images/combining-their-creative-powers-picture-id890775054_1.jpg.webp",
+          image: "/fourteen.jpeg",
+
           title: "Online vs On-Campus ",
         },
         {
-          image:
-            "https://www.topmba.com/sites/default/files/styles/articles_inline/public/embed-carousel/pexels-karolina-grabowska-5908776%20%281%29.jpg.webp",
+          image: "/fifteen.jpeg",
+
           title: "Choosing the Right Online",
         },
       ],

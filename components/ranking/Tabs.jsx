@@ -84,6 +84,7 @@ const Card = ({ card, className }) => (
         objectFit="cover" // Ensures the image covers the container
         objectPosition="center" // Centers the image
         loading="lazy"
+        quality={65}
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Responsive images based on viewport width
       />
     </div>
