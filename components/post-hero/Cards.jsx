@@ -6,24 +6,23 @@ const cards = [
     title: "Discover MBAs",
     description:
       "Start your MBA journey by discovering the right programme and business school for you.",
-    image:
-      "https://www.topmba.com/sites/default/files/uni-ranking/mortarboard-blueOval%402x_0.png",
+    image: "/logo1.png",
     link: "#",
   },
   {
     title: "Meet with schools",
     description:
       "In-person and virtual worldwide events. Get your questions answered by admissions reps from around the world.",
-    image:
-      "https://www.topmba.com/sites/default/files/uni-ranking/HR-blueOval%402x_2.png",
+    image: "/logo2.png",
+
     link: "#",
   },
   {
     title: "Prepare your application",
     description:
       "Get ready to sit the GMAT or GRE by joining the world's first social test-prep platform for free.",
-    image:
-      "https://www.topmba.com/sites/default/files/uni-ranking/prepare-oval-paleyellow%20copy%203%402x_2.png",
+    image: "/logo3.png",
+
     link: "#",
   },
 ];

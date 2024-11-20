@@ -9,29 +9,29 @@ const MbaProgrammes = () => {
         {
           title: "Top MBA Programmes Worldwide",
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/5185439/pexels-photo-5185439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           description:
             "Discover the top MBA programmes around the world according to the QS Global MBA Rankings.",
         },
         {
           title: "QS Global MBA Rankings",
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3184451/pexels-photo-3184451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         },
         {
           title: "Top Schools Specialize",
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/1181252/pexels-photo-1181252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         },
         {
           title: "Operations Management",
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/1661002/pexels-photo-1661002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         },
         {
           title: "Best MBA Programmes",
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/1661002/pexels-photo-1661002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         },
       ],
     },
@@ -41,13 +41,13 @@ const MbaProgrammes = () => {
         {
           title: "Top Executive MBA Programmes",
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3084665/pexels-photo-3084665.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           description: "Top executive MBA programmes in the world 2023.",
         },
         {
           title: "Healthcare and Executive Education",
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3184333/pexels-photo-3184333.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           description: "Why healthcare needs executive education graduates.",
         },
       ],
@@ -57,25 +57,30 @@ const MbaProgrammes = () => {
       cards: [
         {
           title: "Top European Online MBA Programmes",
-          image: "https://example.com/eu-top-online.jpg",
+          image:
+            "https://images.pexels.com/photos/1704124/pexels-photo-1704124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
           description:
             "Top online MBA programmes at European business schools.",
         },
         {
           title: "Innovations in Online MBA",
-          image: "https://example.com/online-innovations.jpg",
+          image:
+            "https://images.pexels.com/photos/1181252/pexels-photo-1181252.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         },
         {
           title: "Online vs. Campus MBA",
-          image: "https://example.com/online-vs-campus.jpg",
+          image:
+            "https://images.pexels.com/photos/3184451/pexels-photo-3184451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         },
         {
-          title: "The Value of MBA Alumni ",
-          image: "https://example.com/mba-alumni.jpg",
+          title: "The Value of MBA Alumni",
+          image:
+            "https://images.pexels.com/photos/1704124/pexels-photo-1704124.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         },
         {
           title: "Top Employment",
-          image: "https://example.com/employment-opportunities.jpg",
+          image:
+            "https://images.pexels.com/photos/3084665/pexels-photo-3084665.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
         },
       ],
     },

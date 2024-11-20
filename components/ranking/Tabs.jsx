@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useState } from "react";
 
 const Tabs = ({ tabs }) => {
@@ -17,7 +18,7 @@ const Tabs = ({ tabs }) => {
       );
     } else if (cardCount === 3) {
       return (
-        <div className="grid grid-cols-3 gap-4 px-[100px] h-[500px]">
+        <div className="grid grid-cols-3 gap-4 px-[100px] h-[540px]">
           {cards.map((card, index) => (
             <Card key={index} card={card} />
           ))}
@@ -25,9 +26,9 @@ const Tabs = ({ tabs }) => {
       );
     } else if (cardCount === 5) {
       return (
-        <div className="flex space-x-4 px-[90px] h-[500px]">
+        <div className="flex space-x-4 px-[90px] h-[650px]">
           {/* Big Card */}
-          <Card card={cards[0]} className="w-1/2 h-full" />
+          <Card card={cards[0]} className="w-[50%] h-full" />
           {/* Small Cards */}
           <div className="w-1/2 grid grid-cols-2 grid-rows-2 gap-4">
             {cards.slice(1).map((card, index) => (
@@ -69,17 +70,21 @@ const Tabs = ({ tabs }) => {
   );
 };
 
-// Card Component
+// Card Component with optimized images
 const Card = ({ card, className }) => (
   <div
     className={`card bg-white shadow-lg rounded-lg overflow-hidden ${className}`}
   >
     {/* Upper Part (Image) */}
     <div className="relative h-3/4">
-      <img
+      <Image
         src={card.image}
-        alt={card.title}
-        className="object-cover w-full h-full"
+        alt={card.alt || "Image"} // Use alt text if available
+        layout="fill"
+        objectFit="cover" // Ensures the image covers the container
+        objectPosition="center" // Centers the image
+        loading="lazy"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Responsive images based on viewport width
       />
     </div>
     {/* Lower Part (Title and Description) */}

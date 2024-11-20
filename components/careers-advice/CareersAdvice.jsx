@@ -8,33 +8,33 @@ const CareersAdvice = () => {
       cards: [
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3823545/pexels-photo-3823545.jpeg", // MBA Business Leadership
           description:
-            "Discover the top MBA programmes around the world according to the QS Global MBA Rankings.",
+            "Explore top MBA programmes worldwide, ranked by career opportunities and alumni network strength.",
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3184309/pexels-photo-3184309.jpeg", // Business Networking
           description:
-            "Discover the methodology behind the QS Global MBA Rankings, our assessment of the top full-time MBA programmes in the world.",
+            "Understand the methodology behind the QS Global MBA Rankings and discover the leading MBA schools.",
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/4386414/pexels-photo-4386414.jpeg", // Finance Career MBA
           description:
-            "QS MBA by Career Specialisation Rankings 2023 have been released. Here we take a look at the top 10 schools specialising in finance on an MBA programme.",
+            "Top 10 MBA programmes by career specialisation in finance, helping you sharpen your financial expertise.",
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/274131/pexels-photo-274131.jpeg", // Business Strategy Management
           description:
-            "Operations management is chiefly concerned with planning, organizing and supervising in the contexts of production, manufacturing or the provision of services. This article explains what operations management involves and what skills can make you a successful operations manager.",
+            "Operations management is key to business success. Explore how this specialisation can enhance your career.",
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3178796/pexels-photo-3178796.jpeg", // Entrepreneurship MBA
           description:
-            "Which MBA programmes are the best for a career in entrepreneurship? Discover the top 10 MBA programmes based on the QS MBA by Career Specialisation Rankings 2023: Entrepreneurship.",
+            "Which MBA programmes are best for launching your entrepreneurship career? Discover our top recommendations.",
         },
       ],
     },
@@ -43,29 +43,33 @@ const CareersAdvice = () => {
       cards: [
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
-          description: "Top executive MBA programmes in the world 2023.",
-        },
-        {
-          image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
-          description: "Why healthcare needs executive education graduates.",
-        },
-        {
-          image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/4386424/pexels-photo-4386424.jpeg", // Executive MBA
           description:
-            "What makes the Executive MBA from HEC Paris the best in the world?",
+            "Explore the world’s best executive MBA programmes for 2023.",
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/5312765/pexels-photo-5312765.jpeg", // Healthcare Executive Education
           description:
-            "We've released the QS Global EMBA Rankings. Take a look at the top 10 EMBA programmes in North America.",
+            "The importance of healthcare leadership in MBA education.",
         },
         {
-          image: "https://example.com/uk-top-online.jpg",
-          description: "UK’s top three online MBA programmes compared.",
+          image:
+            "https://images.pexels.com/photos/3775105/pexels-photo-3775105.jpeg", // Online MBA Executive
+          description:
+            "HEC Paris' Executive MBA is one of the world’s best. Learn why this programme stands out.",
+        },
+        {
+          image:
+            "https://images.pexels.com/photos/4167693/pexels-photo-4167693.jpeg", // North America EMBA
+          description:
+            "The QS Global EMBA Rankings highlight the top executive MBA programmes across North America.",
+        },
+        {
+          image:
+            "https://images.pexels.com/photos/4188041/pexels-photo-4188041.jpeg", // UK Online MBA
+          description:
+            "A comparison of the top three online MBA programmes in the UK.",
         },
       ],
     },
@@ -73,18 +77,22 @@ const CareersAdvice = () => {
       title: "Additional MBA Insights",
       cards: [
         {
-          image: "https://example.com/eu-top-online.jpg",
+          image:
+            "https://images.pexels.com/photos/2741215/pexels-photo-2741215.jpeg", // Europe Online MBA
           description:
-            "Top online MBA programmes at European business schools.",
+            "Explore top online MBA programmes in Europe for a global career boost.",
         },
         {
-          image: "https://example.com/online-innovations.jpg",
-          description: "5 innovative changes to the online MBA in 2022.",
+          image:
+            "https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg", // Online MBA Innovations
+          description:
+            "Innovative changes in online MBA education that shape future leaders.",
         },
         {
-          image: "https://example.com/online-vs-campus.jpg",
+          image:
+            "https://images.pexels.com/photos/3748256/pexels-photo-3748256.jpeg", // Online vs Campus MBA
           description:
-            "How can online MBAs replicate the on-campus experience?",
+            "How can online MBAs provide a comparable experience to traditional on-campus learning?",
         },
       ],
     },
@@ -92,17 +100,22 @@ const CareersAdvice = () => {
       title: "MBA Alumni & Employment Insights",
       cards: [
         {
-          image: "https://example.com/mba-alumni.jpg",
-          description: "How MBA alumni can help your career growth.",
-        },
-        {
-          image: "https://example.com/employment-opportunities.jpg",
+          image:
+            "https://images.pexels.com/photos/3184429/pexels-photo-3184429.jpeg", // Alumni Network MBA
           description:
-            "The most promising employment opportunities for MBA graduates.",
+            "Leverage MBA alumni networks for career advancement and business success.",
         },
         {
-          image: "https://example.com/mba-networking.jpg",
-          description: "The power of networking for MBA students and alumni.",
+          image:
+            "https://images.pexels.com/photos/2676142/pexels-photo-2676142.jpeg", // Employment Opportunities MBA
+          description:
+            "The top employment opportunities available for MBA graduates worldwide.",
+        },
+        {
+          image:
+            "https://images.pexels.com/photos/4427662/pexels-photo-4427662.jpeg", // MBA Networking
+          description:
+            "The importance of networking for MBA students and how to use it effectively.",
         },
       ],
     },
@@ -110,9 +123,8 @@ const CareersAdvice = () => {
 
   return (
     <>
-      {" "}
       <div className="px-24 mt-8">
-        <h1 className="mb-4 text-3xl font-semibold">Careers advice</h1>
+        <h1 className="mb-4 text-3xl font-semibold">Careers Advice</h1>
       </div>
       <Tabs tabs={tabData2} />;
     </>

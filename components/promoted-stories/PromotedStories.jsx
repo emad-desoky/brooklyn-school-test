@@ -1,38 +1,40 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 
 const PromotedStories = () => {
   const cards = [
     {
       image:
-        "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+        "https://images.pexels.com/photos/3759082/pexels-photo-3759082.jpeg",
       title: "Top Global MBA Programs 2025",
       description:
-        "Discover the top MBA programs worldwide, ranked in the QS Global MBA Rankings.",
+        "Explore the best MBA programs around the world, ranked in the QS Global MBA Rankings for 2025.",
     },
     {
       image:
-        "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
-      title: "QS MBA Ranking",
-      description: "",
+        "https://images.pexels.com/photos/3184307/pexels-photo-3184307.jpeg",
+      title: "QS MBA Ranking Methodology",
+      description: "Understand the methodology behind the QS ",
     },
     {
       image:
-        "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
-      title: "Top MBAs for Finance",
-      description: "",
+        "https://images.pexels.com/photos/3270763/pexels-photo-3270763.jpeg",
+      title: "Top MBAs for Finance Careers",
+      description: "Check out the best MBA programs for a career",
     },
     {
       image:
-        "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
-      title: "Operations Management",
-      description: "",
+        "https://images.pexels.com/photos/1181397/pexels-photo-1181397.jpeg",
+      title: "Operations Management MBA Programs",
+      description: "Discover the best MBA programs that.",
     },
     {
       image:
-        "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
-      title: "Top Entrepreneurship MBA",
-      description: "",
+        "https://images.pexels.com/photos/3183189/pexels-photo-3183189.jpeg",
+      title: "Top Entrepreneurship MBA Programs",
+      description:
+        "Explore the top MBA programs for aspiring entrepreneurs, ranked globally for 2025.",
     },
   ];
 
@@ -42,10 +44,12 @@ const PromotedStories = () => {
     >
       {/* Upper Part (Image) */}
       <div className="relative h-3/4">
-        <img
+        <Image
           src={card.image}
           alt={`${card.title} - ${card.description}`}
-          className="object-cover w-full h-full"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-t-lg"
         />
       </div>
       {/* Lower Part (Title and Description) */}
@@ -65,9 +69,9 @@ const PromotedStories = () => {
         finance, operations, and entrepreneurship.
       </p>
       {/* Displaying the 5 cards */}
-      <div className="flex space-x-4 h-[500px] mt-8">
+      <div className="flex space-x-4 h-[650px] mt-4">
         {/* Big Card */}
-        <Card card={cards[0]} className="w-1/2 h-full" />
+        <Card card={cards[0]} className="w-[60%] h-full" />
         {/* Small Cards */}
         <div className="w-1/2 grid grid-cols-2 grid-rows-2 gap-4">
           {cards.slice(1).map((card, index) => (

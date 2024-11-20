@@ -8,7 +8,7 @@ const AdmissionAdvice = () => {
       cards: [
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3184342/pexels-photo-3184342.jpeg",
           alt: "Top MBA Programmes",
           title: "Top Global MBA Programmes",
           description:
@@ -16,25 +16,25 @@ const AdmissionAdvice = () => {
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3184385/pexels-photo-3184385.jpeg",
           alt: "MBA Ranking Methodology",
           title: "QS MBA Ranking",
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3183191/pexels-photo-3183191.jpeg",
           alt: "Finance MBA Rankings",
           title: "Top MBA Schools",
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3184307/pexels-photo-3184307.jpeg",
           alt: "Operations Management MBA",
           title: "Operations Management",
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3183189/pexels-photo-3183189.jpeg",
           alt: "Entrepreneurship MBA Rankings",
           title: "Top MBA Programmes",
         },
@@ -45,7 +45,7 @@ const AdmissionAdvice = () => {
       cards: [
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3179239/pexels-photo-3179239.jpeg",
           alt: "Top EMBA Programmes",
           title: "Top EMBA Programmes Worldwide",
           description:
@@ -53,26 +53,27 @@ const AdmissionAdvice = () => {
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3184406/pexels-photo-3184406.jpeg",
           alt: "Healthcare Executive Education",
           title: "Healthcare Executive",
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3184450/pexels-photo-3184450.jpeg",
           alt: "Executive MBA HEC Paris",
           title: "HEC Paris Executive MBA",
         },
         {
           image:
-            "https://media.istockphoto.com/id/1363644604/photo/mba-master-of-business-administration-business.jpg?s=612x612&w=0&k=20&c=r7-ol8j6d4IvUMJZGcBqtl3ym7ayES5zDQk62E-cFBs=",
+            "https://images.pexels.com/photos/3184447/pexels-photo-3184447.jpeg",
           alt: "North America EMBA Rankings",
           title: "Top EMBA Programmes",
         },
         {
-          image: "https://example.com/uk-top-online.jpg",
+          image:
+            "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg",
           alt: "UK Online MBA Rankings",
-          title: "Uk Top Online MBA",
+          title: "UK Top Online MBA",
         },
       ],
     },
@@ -80,29 +81,34 @@ const AdmissionAdvice = () => {
       title: "Additional MBA Insights",
       cards: [
         {
-          image: "https://example.com/eu-top-online.jpg",
+          image:
+            "https://images.pexels.com/photos/3184330/pexels-photo-3184330.jpeg",
           alt: "European Online MBA",
           title: "Top European Online MBA Programmes",
           description:
             "Find the best online MBA programmes from prestigious European business schools, offering flexibility and high-quality education.",
         },
         {
-          image: "https://example.com/online-innovations.jpg",
+          image:
+            "https://images.pexels.com/photos/3184314/pexels-photo-3184314.jpeg",
           alt: "Online MBA Innovations",
           title: "Innovations in Online MBA",
         },
         {
-          image: "https://example.com/online-vs-campus.jpg",
+          image:
+            "https://images.pexels.com/photos/3184319/pexels-photo-3184319.jpeg",
           alt: "Online vs Campus MBA",
           title: "Online vs Campus MBA",
         },
         {
-          image: "https://example.com/mba-alumni.jpg",
+          image:
+            "https://images.pexels.com/photos/3183192/pexels-photo-3183192.jpeg",
           alt: "MBA Alumni Network",
           title: "MBA Alumni.",
         },
         {
-          image: "https://example.com/employment-opportunities.jpg",
+          image:
+            "https://images.pexels.com/photos/3183182/pexels-photo-3183182.jpeg",
           alt: "MBA Employment Opportunities",
           title: "Top Employment Opportunities.",
         },

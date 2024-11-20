@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FaSearch } from "react-icons/fa"; // You can use react-icons for the search icon
@@ -27,11 +28,9 @@ export default function Navbar() {
 
   return (
     <nav className="navbar bg-[rgb(29,29,27)] p-2 sticky top-0 z-50">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-between ml-1">
         {/* Logo */}
-        <Link href="/" className="text-white text-2xl font-bold ml-6">
-          LOGO
-        </Link>
+        <Image width={200} height={200} alt="logo" src="/Logo.png" />
 
         {/* Nav Links (aligned to the left next to the logo) */}
         <div className="flex px-4 mr-[500px] space-x-8 font-semibold">
@@ -74,7 +73,6 @@ export default function Navbar() {
             </div>
           ))}
         </div>
-
         {/* Login/Signup + Search Icon (aligned to the right) */}
         <div className="flex space-x-4 items-center">
           {/* Search Icon */}
@@ -93,7 +91,7 @@ export default function Navbar() {
           {/* Sign Up Button */}
           <Link
             href="/signup"
-            className="text-white bg-green-600 px-4 py-2 rounded-md transition-all duration-200 ease-in-out"
+            className="text-white bg-green-600 py-2 px-2 rounded-md transition-all duration-200 ease-in-out"
           >
             Sign Up
           </Link>

@@ -1,4 +1,10 @@
 // next.config.js
 export const images = {
-  domains: ["www.topmba.com"], // Add the external domain here
+  remotePatterns: [
+    {
+      protocol: "https",
+      hostname: "**", // Allows images from any domain
+    },
+  ],
+  unoptimized: true, // Disable image optimization for all images
 };

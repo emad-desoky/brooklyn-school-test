@@ -11,7 +11,8 @@ export default function HeroSection() {
           </h1>
           <h2 className="text-2xl text-gray-700 mb-8 py-4">
             Your MBA journey starts here in one place - for free. Start your
-            personalised application and career planning now.
+            personalised application and career planning now.{" "}
+            <p>2025 QS Global MBA Ranking : Global</p>
           </h2>
           <h3 className="text-blue-500 font-medium hover:underline relative inline-block">
             <a
