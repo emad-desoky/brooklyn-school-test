@@ -49,7 +49,6 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <Navbar />
       <div className="main-wrapper">
         <HeroSection />
         <Cards />
@@ -61,7 +60,6 @@ export default function Home() {
         <MbaProgrammes />
         <CareersAdvice />
       </div>
-      <Footer />
     </>
   );
 }

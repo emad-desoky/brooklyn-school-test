@@ -1,0 +1,50 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model GlobalMba {
+  id                                     Int    @id @default(autoincrement())
+  rank2025                               String
+  rank2024                               String
+  institution                            String
+  countryOrTerritory                     String
+  region                                 String
+  employabilityScore                     Float?
+  employabilityRank                      String
+  entrepreneurshipAndAlumniOutcomesScore Float?
+  entrepreneurshipAndAlumniOutcomesRank  String
+  returnOnInvestmentScore                Float?
+  returnOnInvestmentRank                 String
+  thoughtLeadershipScore                 Float?
+  thoughtLeadershipRank                  String
+  diversityScore                         Float?
+  diversityRank                          String
+  overallScore                           Float?
+}
+
+model DegreeRanking {
+  id                     Int     @id @default(autoincrement())
+  rank2025               String
+  rank2024               String
+  institution            String
+  countryOrTerritory     String
+  region                 String
+  employabilityScore     Float?
+  employabilityRank      String
+  alumniOutcomesScore    Float?
+  alumniOutcomesRank     String
+  valueForMoneyScore     Float?
+  valueForMoneyRank      String
+  thoughtLeadershipScore Float?
+  thoughtLeadershipRank  String
+  diversityScore         Float?
+  diversityRank          String
+  overallScore           Float?
+  degree                 String?
+}
