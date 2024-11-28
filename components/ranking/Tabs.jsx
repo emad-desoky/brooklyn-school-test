@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Tabs = ({ tabs }) => {
@@ -77,16 +78,18 @@ const Card = ({ card, className }) => (
   >
     {/* Upper Part (Image) */}
     <div className="relative h-3/4">
-      <Image
-        src={card.image}
-        alt={card.alt || "Image"} // Use alt text if available
-        layout="fill"
-        objectFit="cover" // Ensures the image covers the container
-        objectPosition="center" // Centers the image
-        loading="lazy"
-        quality={65}
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Responsive images based on viewport width
-      />
+      <Link href={`rankings/${btoa(JSON.stringify(card))}`}>
+        <Image
+          src={card.image}
+          alt={card.alt || "Image"} // Use alt text if available
+          layout="fill"
+          objectFit="cover" // Ensures the image covers the container
+          objectPosition="center" // Centers the image
+          loading="lazy"
+          quality={65}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Responsive images based on viewport width
+        />
+      </Link>
     </div>
     {/* Lower Part (Title and Description) */}
     <div className="p-4 h-1/4">

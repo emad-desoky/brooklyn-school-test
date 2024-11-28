@@ -45,15 +45,17 @@ export default function Navbar() {
     <nav className="navbar bg-[rgb(29,29,27)] p-4 sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
-        <Image
-          width={100}
-          height={100}
-          alt="logo"
-          src="/ai-logo3.PNG"
-          className="rounded-full"
-        />
+        <Link href="/">
+          <Image
+            width={100}
+            height={100}
+            alt="logo"
+            src="/ai-logo3.PNG"
+            className="rounded-full"
+          />
+        </Link>
         {/* Nav Links */}
-        <div className="flex space-x-6 font-semibold text-white">
+        <div className="flex space-x-10 font-semibold text-white">
           {navItems.map((item) => (
             <div
               key={item.label}
@@ -89,28 +91,7 @@ export default function Navbar() {
           ))}
         </div>
         {/* Login/Signup + Search Icon */}
-        <div className="flex space-x-4 items-center">
-          {/* Search Icon */}
-          <button className="text-white p-2 hover:bg-gray-700 rounded-full transition duration-300 ease-in-out">
-            <FaSearch className="text-xl" />
-          </button>
-
-          {/* Login Button */}
-          <Link
-            href="/login"
-            className="text-white px-4 py-2 rounded-md transition duration-300 ease-in-out hover:bg-gray-700"
-          >
-            Login
-          </Link>
-
-          {/* Sign Up Button */}
-          <Link
-            href="/signup"
-            className="text-white bg-green-600 py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-green-500"
-          >
-            Sign Up
-          </Link>
-        </div>
+        <div className="flex space-x-4 items-center">{/* Search Icon */}</div>
       </div>
     </nav>
   );

@@ -13,7 +13,7 @@ const Ranking = () => {
             "Discover the top MBA programmes around the world according to the QS Global MBA Rankings.",
         },
         {
-          image: "two.jpg",
+          image: "/two.jpg",
           title: "QS MBA Ranking Methodology",
           description:
             "Learn the methodology behind the QS Global MBA Rankings, assessing the top full-time MBA programs worldwide.",

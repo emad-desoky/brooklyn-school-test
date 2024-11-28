@@ -31,9 +31,11 @@ const MSTable = ({ degreeRankings }) => {
 
   // Filter rankings based on search term and filters
   const filteredRankings = degreeRankings.filter((ranking) => {
-    const matchesSearch = ranking.institution
-      .toLowerCase()
-      .includes(searchTerm.toLowerCase());
+    const matchesSearch =
+      ranking.institution.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      ranking.countryOrTerritory
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase());
     const matchesCountry =
       selectedFilters.countryOrTerritory.length === 0 ||
       selectedFilters.countryOrTerritory.includes(ranking.countryOrTerritory);
@@ -67,10 +69,13 @@ const MSTable = ({ degreeRankings }) => {
       <div className="p-4">
         {/* Search Bar */}
         <div className="mb-4">
+          <p className="text-gray-700 font-medium mb-2">
+            SEARCH FOR AN INSTITUTION OR COUNTRY
+          </p>
           <input
             type="text"
             className="w-full p-2 border border-gray-300 rounded-lg focus:ring focus:ring-blue-200"
-            placeholder="Search for an institution..."
+            placeholder="Search for an institution or country..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
