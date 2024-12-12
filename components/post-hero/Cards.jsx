@@ -41,6 +41,7 @@ const Cards = () => {
               alt={card.title}
               width={100} // Equivalent to h-12 and w-12 in Tailwind
               height={100} // Ensures the image has the correct aspect ratio
+              quality={75}
             />
           </div>
           <h3 className="text-center text-xl font-semibold mb-10">
@@ -51,23 +52,7 @@ const Cards = () => {
             <a
               href={card.link}
               className="text-blue-600 font-semibold flex items-center justify-center space-x-2"
-            >
-              <span>Explore</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                className="h-5 w-5 text-blue-600"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M13 7l5 5-5 5M6 12h12"
-                ></path>
-              </svg>
-            </a>
+            ></a>
           </div>
         </div>
       ))}
